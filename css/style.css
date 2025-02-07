@@ -977,14 +977,30 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.5s;
 }
 
-#fh5co-footer {
-  padding: 50px 0;
-  float: left;
-  width: 100%;
-}
 #fh5co-footer p:last-child {
   margin-bottom: 0;
 }
+#fh5co-footer {
+  text-align: center;
+  color: rgb(21, 20, 20);
+  padding: 20px 0;
+}
+
+#fh5co-footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+#fh5co-footer a {
+  color: #FF9000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#fh5co-footer a:hover {
+  text-decoration: underline;
+}
+
 
 .contact-info {
   margin-bottom: 4em;
