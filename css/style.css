@@ -1290,4 +1290,38 @@ input[type="text"] {
   opacity: 0;
 }
 
+.feature-left .icon {
+  transition: transform 0.3s ease-in-out;
+}
+.feature-left .icon:hover {
+  transform: scale(1.2);
+}
+#fh5co-skills .container {
+  text-align: center;
+}
+
+#fh5co-skills .feature-left {
+  float: none; /* Remove float */
+  margin: 20px auto; /* Center the blocks */
+  display: inline-block; /* Keeps inline for centering */
+  text-align: center;
+  width: 100%;
+  max-width: 300px; /* Adjust the width */
+}
+
+#fh5co-skills .feature-left .icon {
+  margin: 0 auto 15px auto; /* Centers the icons */
+}
+
+#fh5co-skills .feature-copy h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+#fh5co-skills .feature-copy p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
 /*# sourceMappingURL=style.css.map */
